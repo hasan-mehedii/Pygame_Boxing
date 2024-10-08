@@ -77,6 +77,8 @@ while running:
         running = False
 
     if enemy_health == 0:
+        #final_sound = mixer.Sound("final.mp3")
+        #final_sound.play()
         print("You win")
         running = False    
 
@@ -94,11 +96,15 @@ while running:
 
             if event.key == pygame.K_SPACE:
                 player_image = player_offense
+                punch_sound = mixer.Sound("punch.mp3")
+                punch_sound.play()
                 space_pressed = True
                 player_switch_time = pygame.time.get_ticks()
                 distaance = math.sqrt(math.pow((enemy_x - player_x), 2) + math.pow((enemy_y - player_y), 2))
                 if distaance < 300:
                     enemy_health -= 2
+                    enemy_sound = mixer.Sound("tom_hurt.mp3")
+                    enemy_sound.play()
                     print("1 Punch delivered!!!")
 
     if not enemy_in_offense:
