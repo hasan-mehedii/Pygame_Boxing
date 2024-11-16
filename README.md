@@ -24,7 +24,7 @@ This project is a basic fighting. You have to come near to the opponent for punc
 ## 🖼️ Screenshots
 
 ### Gameplay
-![Gameplay](images/pygame_planewar.png)
+![Gameplay](images/boxing.png)
 
 ---
 
