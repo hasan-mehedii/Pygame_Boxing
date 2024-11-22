@@ -1,6 +1,6 @@
 # 🥊 Pygame Project: Boxing Fight
 
-**Developer🙋‍♂️**: [Mehedi Hasan](https://github.com/mh-MeHeDii)
+**Developer🙋‍♂️**: [Mehedi Hasan](https://github.com/hasan-mehedii)
 
 A basic boxing fighting match between compuuter vs gamer/user. Both have some hp and user can punch the face of opponent👊. 
 
